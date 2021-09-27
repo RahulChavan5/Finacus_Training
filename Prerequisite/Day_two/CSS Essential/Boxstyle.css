@@ -1,0 +1,17 @@
+.box-a{
+    background-color: gray;
+    padding: 30px;
+    border: 3px solid;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 150px;
+    box-sizing: border-box;
+}
+.box-b{
+    background-color: yellow;
+    width: 250px;
+    height: 150px;
+
+
+
+}

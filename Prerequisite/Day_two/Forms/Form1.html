@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form </title>
+</head>
+<body>
+    <form>
+        <h1>Enter your name</h1>
+        <label>
+            <label for="firstname">First Name:</label>
+          <input id="firstname" type="text" name="firstname">  
+    
+        <label>
+            <label for="lastname">Last Name:</label>
+          <input id="lastname" type="text" name="lastname">  
+          <input type="submit" value="Submit"> 
+          <hr>
+
+        <h1>Enter your Email Id</h1>
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email">
+        <input type="submit" value="Submit"> 
+
+        <h1>Enter your Telephone Number</h1>
+        <label for="tel">Telephone:</label>
+        <input id="tel" type="tel" name="tel">
+        <input type="submit" value="Save">
+
+        <h1>Enter your Message</h1>
+        <label for="yourmessage">Your Message:</label>
+       <textarea id="yourmessage" name="YourMessage"></textarea>
+        <input type="submit" value="Submit"> 
+        <hr>
+
+        <h1>Example of Drop down</h1>
+        <label for="favoritesports">Which is your Favorite Sports?</label>
+        <select id="favoritesports" name="favoritesports">
+        <option value="cricket">Cricket</option>
+        <option value="hockey">Hockey</option>
+        <option value="badminton">Badminton</option>
+        </select>
+
+        <h1>Example of Radio</h1>
+        <fieldset>
+            <legend>Which is your Favorite Animal</legend>
+        <input id="Lion" name="favoriteanimal" type="radio" value="animal1">
+        <label for="Lion">Lion</label>
+
+        <input id="Tiger" name="favoriteanimal" type="radio" value="animal2">
+        <label for="Tiger">Tiger</label>
+        
+        <input id="Cheetah" name="favoriteanimal" type="radio" value="animal3">
+        <label for="Cheetah">Cheetah</label> 
+    </fieldset>
+
+        <h1>Example of Checkbox</h1>
+        <fieldset>
+            <legend>Which Country do you want to visit(Select multiple options)</legend>
+        <input id="United states" name="Country" type="checkbox" value="country1">
+        <label for="United states">United States</label>
+
+        <input id="United Kingdom" name="Country" type="checkbox" value="country2">
+        <label for="United Kingdom">United Kingdom</label>
+        
+        <input id="Australia" name="Country" type="checkbox" value="country3">
+        <label for="Australia">Australia</label> 
+    </fieldset>
+
+       
+    </form>
+</body>
+</html>
