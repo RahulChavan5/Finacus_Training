@@ -1,0 +1,135 @@
+html{
+    background-color: #869968;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 110%;
+}
+.container{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+header{
+    padding-top: 20px;
+    
+    color: #617161;
+}
+header h1{
+    margin: 0;
+    font-weight: normal;
+    font-size: 150%;
+}
+header p {
+    margin: 0;
+}
+.content-area{
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+}
+.main-area{
+    width: 60%;
+    float: left;
+    padding-right: 30px;
+    box-sizing: border-box;
+    
+}
+.sidebar{
+    width: 40%;
+    float: left;
+    background-color: gray;
+    padding: 20px 10px 10px 20px;
+    box-sizing: border-box;
+    font-size: 90%;
+    padding-bottom: 20px;
+}
+footer{
+    text-align: center;
+    font-size: 90%;
+    color: brown;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+img{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+
+/*Navigation*/
+.navi{
+    margin-top: 20px;
+}
+.navi ul{
+    margin: 0;
+    padding: 0;
+}
+.navi li{
+    list-style: none; 
+    float: left;
+    margin-left: 8px;
+}
+.navi a{
+    text-decoration: none;
+    color: forestgreen;
+    padding: 10px 20px;
+    border: 3px solid gray;
+    display: block;
+    border-bottom: none;
+}
+.navi a:hover{
+    background-color: lightgreen;
+}
+/* End Navigation*/
+
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after{
+    clear:both;
+}
+.group{
+    zoom:1;
+}
+/* Table Styeles*/
+table th{
+    text-align: left;
+    background-color: burlywood; 
+    text-shadow: 1px 1px 0 rgba(0,0,0,.4);
+}
+table th,
+table td{
+    border: 1px solid burlywood);
+    padding: 8px;
+}
+table tbody tr:nth-child(even) td{
+    background-color: bisque;
+
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+.col-name{
+    width: 60%;
+    font-size: 95%;
+}
+.col-roll,
+.col-div{
+    width: 20%;
+    font-size: 95%;
+}
+table tr :nth-child(2),
+table tr :nth-child(3){
+    text-align: center;
+}
+/* End Table Styeles*/
